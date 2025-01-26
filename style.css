@@ -7,6 +7,7 @@
     font-family: "Poppins", serif;
 }
 
+
 :root{
     --primary-color:  #0f0c24;
     --secondary-color: #c1436d;
@@ -419,7 +420,7 @@ nav button:hover{
 @media only screen and (max-width: 600px) {
     header{
         position: fixed;
-        width: 77.5%;
+        width: 100%;
     }
 
     header img {
@@ -463,11 +464,14 @@ nav button:hover{
 
     #burger-menu {
         display: block;
+        
+
     }
 
 
     #home{
         height: 100vh;
+        width: 100%;
 
     }
 
@@ -495,6 +499,7 @@ nav button:hover{
         margin: unset;
         width: auto;
         height: 120vh;
+        width: 100%;
     }
 
     #about main{
