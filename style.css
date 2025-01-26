@@ -158,7 +158,7 @@ nav button:hover{
 /* Home Section */
 
 #home{
-    background: url(../270969.jpg);
+    background: url(./270969.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -379,7 +379,7 @@ nav button:hover{
 /* Contact Section */
 
 #contact{
-    background: url(../270969.jpg);
+    background: url(./270969.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
