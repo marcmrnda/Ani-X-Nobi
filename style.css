@@ -419,6 +419,7 @@ nav button:hover{
 @media only screen and (max-width: 600px) {
     header{
         position: fixed;
+        width: 77.5%;
     }
 
     header img {
