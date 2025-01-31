@@ -111,6 +111,7 @@ const config = {
 
 particlesJS("particles-js", config)
 particlesJS("particles-js-1", config)
+particlesJS("particles-js-2", config)
 
 var count_particles, stats, update;
 
@@ -133,6 +134,7 @@ update = function () {
     if (window.pJSDom && window.pJSDom.length >= 2) {
         count_particles[0].innerText = `Particles (Section 1): ${window.pJSDom[0].pJS.particles.array.length}`;
         count_particles[1].innerText = `Particles (Section 2): ${window.pJSDom[1].pJS.particles.array.length}`;
+        count_particles[2].innerText = `Particles (Section 3): ${window.pJSDom[1].pJS.particles.array.length}`;
     }
 
     requestAnimationFrame(update);
